@@ -49,7 +49,7 @@ btn.addEventListener('click', ()=>{
 
 function takeCommand(message){
     if(message.includes("hello") || message.includes("hii")){
-        const finalText = message + "how can i help "
+        const finalText = message + "how can i help you"
         speak(finalText)
       }
     else if(message.includes("open google")){
