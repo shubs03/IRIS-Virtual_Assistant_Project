@@ -85,10 +85,12 @@ body{
         padding: 0.3rem 8rem;
     }
     .button .btn-content{
-       font-size: 0.8rem ;
-       width: 7rem;
+       font-size: 0.4rem ;
+       width: 3rem;
        text-align: center;
-    
+    }
+     .button{
+        padding: 0.3rem 6rem;
     }
     .talk{
         font-size: 15px;
