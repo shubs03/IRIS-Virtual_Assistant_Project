@@ -91,7 +91,7 @@ function takeCommand(message){
     }
     else {
         //window.open(`https://www.google.com/search?q=${message}`,"_blank");
-        const finalText = " prathamesh mala mhanto madi i dhavli mi ata tay talu" ;
+        const finalText = "Here is the Information about " ;
         speak(finalText);
     }
 }
