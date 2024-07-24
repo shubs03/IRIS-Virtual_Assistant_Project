@@ -90,7 +90,7 @@ function takeCommand(message){
         speak(finalText);
     }
     else {
-        //window.open(`https://www.google.com/search?q=${message}`,"_blank");
+        window.open(`https://www.google.com/search?q=${message}`,"_blank");
         const finalText = "Here is the Information about " ;
         speak(finalText);
     }
