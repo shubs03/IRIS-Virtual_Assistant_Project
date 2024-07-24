@@ -48,7 +48,10 @@ btn.addEventListener('click', ()=>{
 })
 
 function takeCommand(message){
-      if(message.includes("open google")){
+    if(message.includes("hello") || message.includes("hii")){
+        const finalText = message + "how can i help "
+      }
+    else if(message.includes("open google")){
         window.open("https://google.com", "_blank");
         speak("Opening Google...")
     }
@@ -91,7 +94,7 @@ function takeCommand(message){
     }
     else {
         window.open(`https://www.google.com/search?q=${message}`,"_blank");
-        const finalText = "Here is the Information about " ;
+        const finalText = "Here is the Information about " + message ;
         speak(finalText);
     }
 }
