@@ -62,3 +62,31 @@
     color: #aed0d0; 
     font-family: "Roboto Mono", monospace; 
 }
+@media only screen and (max-width:550px) {
+    .content{
+       max-width:400px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .content-heading{
+        font-size: 1.8rem;
+    }
+    .content-para{
+        font-size: 0.7rem;
+       
+    }
+    .button{
+        font-size: 0.3rem;
+        padding: 0.3rem 8rem;
+    }
+    .button .btn-content{
+       font-size: 0.8rem ;
+       width: 7rem;
+       text-align: center;
+    
+    }
+    .talk{
+        font-size: 15px;
+    }
+}
